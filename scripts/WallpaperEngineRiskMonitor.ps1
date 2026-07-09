@@ -1,3 +1,6 @@
+# Copyright (c) 2026 Cheshan Jayathilaka.
+# Licensed under the MIT License. See LICENSE and NOTICE.md in the repository root.
+
 # Wallpaper Engine Risk Monitor
 # Logs Wallpaper Engine process, network, and optional Sysmon file events.
 # Run from PowerShell:
@@ -453,6 +456,7 @@ do {
     if ($Once) { break }
     Start-Sleep -Seconds $PollSeconds
 } while ($true)
+
 
 
 

@@ -1,3 +1,6 @@
+# Copyright (c) 2026 Cheshan Jayathilaka.
+# Licensed under the MIT License. See LICENSE and NOTICE.md in the repository root.
+
 # Convenience launcher for the main monitor under scripts/.
 [CmdletBinding()]
 param(
@@ -18,3 +21,4 @@ if ($IncludePrivateNetworkAlerts) { $forward.IncludePrivateNetworkAlerts = $true
 if ($Once) { $forward.Once = $true }
 
 & $scriptPath @forward
+

@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Cheshan Jayathilaka. Licensed under the MIT License. See LICENSE and NOTICE.md. -->
 <Sysmon schemaversion="4.90">
   <HashAlgorithms>sha256</HashAlgorithms>
   <EventFiltering>
@@ -25,3 +26,4 @@
     </DnsQuery>
   </EventFiltering>
 </Sysmon>
+

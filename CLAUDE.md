@@ -23,3 +23,7 @@ powershell -ExecutionPolicy Bypass -File .\WallpaperEngineRiskMonitor.ps1 -Once 
 ```
 
 Confirm startup reports the expected report folder and, when installed, Sysmon enrichment.
+
+## Copyright
+
+Do not remove or weaken copyright, license, or notice text. New source files should keep attribution consistent with `NOTICE.md` and `LICENSE`.

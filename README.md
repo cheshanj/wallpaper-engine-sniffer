@@ -28,6 +28,8 @@ The tool is designed for cautious local auditing. It does not block traffic or m
 │   ├── sysmon-setup.md
 │   ├── reports.md
 │   └── security-notes.md
+├── NOTICE.md
+├── CONTRIBUTING.md
 ├── AGENTS.md
 ├── CLAUDE.md
 └── LICENSE
@@ -88,3 +90,11 @@ See [docs/sysmon-setup.md](docs/sysmon-setup.md) for setup steps.
 This project is an audit helper, not a replacement for EDR, firewall controls, or malware analysis. Treat alerts as leads to investigate, not automatic proof of malicious behavior.
 
 See [docs/security-notes.md](docs/security-notes.md) for limitations and safe handling guidance.
+
+## License and Copyright
+
+Copyright (c) 2026 Cheshan Jayathilaka.
+
+This project is distributed under the MIT License. If you copy, modify, redistribute, or include substantial portions of this project elsewhere, keep the copyright and license notices intact.
+
+See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
