@@ -1,0 +1,27 @@
+<Sysmon schemaversion="4.90">
+  <HashAlgorithms>sha256</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="include">
+      <Image condition="contains">\wallpaper_engine\</Image>
+      <CommandLine condition="contains">wallpaper_engine</CommandLine>
+      <ParentImage condition="contains">\wallpaper_engine\</ParentImage>
+    </ProcessCreate>
+    <NetworkConnect onmatch="include">
+      <Image condition="contains">\wallpaper_engine\</Image>
+    </NetworkConnect>
+    <FileCreate onmatch="include">
+      <Image condition="contains">\wallpaper_engine\</Image>
+      <TargetFilename condition="contains">\Documents\</TargetFilename>
+      <TargetFilename condition="contains">\Desktop\</TargetFilename>
+      <TargetFilename condition="contains">\Downloads\</TargetFilename>
+      <TargetFilename condition="contains">\Pictures\</TargetFilename>
+      <TargetFilename condition="contains">\Videos\</TargetFilename>
+      <TargetFilename condition="contains">\.ssh\</TargetFilename>
+      <TargetFilename condition="contains">\AppData\Local\Google\Chrome\User Data\</TargetFilename>
+      <TargetFilename condition="contains">\AppData\Roaming\Mozilla\Firefox\Profiles\</TargetFilename>
+    </FileCreate>
+    <DnsQuery onmatch="include">
+      <Image condition="contains">\wallpaper_engine\</Image>
+    </DnsQuery>
+  </EventFiltering>
+</Sysmon>

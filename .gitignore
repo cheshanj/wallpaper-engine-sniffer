@@ -1,0 +1,9 @@
+# Generated monitor reports
+scripts/reports/*
+!scripts/reports/.gitkeep
+
+# Local editor and OS noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
